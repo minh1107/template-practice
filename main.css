@@ -132,7 +132,7 @@
   background-color: #fff;
   border-radius: 50%;
   display: flex;
-  
+  cursor: pointer;
 }
 
 .button__play img{
