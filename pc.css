@@ -1,0 +1,118 @@
+@media (min-width: 1920px) {
+  .main__block-text,
+  .main__birth {
+    width: calc((100vw - (15.94rem * 2)) / 2);
+  }
+  .main__block-text h2 {
+    font-size: 2.5vw;
+  }
+  .main__section-1 {
+    width: calc((100vw - (15.94rem * 2)));
+  }
+  .main__birth > img {
+    width: calc((100vw - (15.94rem * 2)) / 2);
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1650px) and (max-width: 1919px) {
+  .main__block-text,
+  .main__birth {
+    width: calc((100vw - (15.94rem * 2)) / 2);
+  }
+  .main__block-text h2 {
+    font-size: 2.5vw;
+  }
+  .main__section-1 {
+    width: calc((100vw - (15.94rem * 2)));
+  }
+  .main__birth > img {
+    width: calc((100vw - (15.94rem * 2)) / 2);
+    object-fit: cover;
+  }
+  .main__info-item p {
+    width: 13.5vw;
+  }
+  .main__team-member {
+    width: 16.5vw;
+  }
+  .main__image-baby, .main__image-teddy, .main__image-text {
+    width: 23vw;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1649px) {
+  html {
+    font-size: 13px;
+  }
+  .main__block-text,
+  .main__birth {
+    width: calc((100vw - (15.94rem * 2)) / 2);
+  }
+  .main__section-1 {
+    width: calc((100vw - (15.94rem * 2)));
+  }
+  .main__birth > img {
+    width: calc((100vw - (15.94rem * 2)) / 2);
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+  html {
+    font-size: 13px;
+  }
+  .header__top,
+  .header__main,
+  #main {
+    padding: 0 5rem;
+  }
+  #footer {
+    margin: 4rem 5rem;
+  }
+
+  .main__section-1 {
+    width: 90vw;
+  }
+
+  .main__block-text {
+    width: calc((100vw - 10rem) / 2);
+  }
+
+  .main__block-text h2 {
+    font-size: 3.2vw;
+  }
+  .main__birth {
+    width: calc((100vw - 10rem) / 2);
+  }
+  .footer__info {
+    width: 80vw;
+    justify-content: space-between;
+  }
+  .main__birth > img {
+    width: calc((100vw - 10rem) / 2);
+    object-fit: cover;
+  }
+  .main__info-item {
+    width: auto;
+  }
+  .main__info-item p {
+    width: 16vw;
+  }
+  .main__group-info {
+    justify-content: space-between;
+  }
+  .main__team-member {
+    width: 20vw;
+  }
+  .main__section-3 {
+  }
+  .main__image-teddy,
+  .main__image-baby,
+  .main__image-text {
+    width: 28vw;
+  }
+  .main__image-text h2 {
+    font-size: 3.3vw;
+  }
+}
