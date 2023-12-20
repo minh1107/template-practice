@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./root.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./footer.css" />
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./responsive.css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="header__top">
+        <p class="header__kito">KITO - Every day low price</p>
+        <p class="header__endow">
+          Free Delivery on orders over £120. Don’t miss discount.
+        </p>
+        <div class="header__group_option">
+            <div onclick="toggleDropdownLanguage(event)" class="header__option custom-select">
+                <div class="header__option_show">
+                    <p class="select-value">ENG</p>
+                    <img src="./image/downIcon.svg" alt="" class="header__icon-down"/>
+                </div>
+                <div class="custom-options">
+                    <div onclick="selectOptionLanguage(this, event)">ENG</div>
+                    <div onclick="selectOptionLanguage(this, event)">VIETNAM</div>
+                    <div onclick="selectOptionLanguage(this, event)">THAILAND</div>
+                    <div onclick="selectOptionLanguage(this, event)">CHINA</div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div onclick="toggleDropdownCurrently(event)" class="header__option custom-select">
+                <div class="header__option_show">
+                    <p class="select-value">USD</p>
+                    <img src="./image/downIcon.svg" alt="" class="header__icon-down"/>
+                </div>
+                <div class="custom-options" >
+                    <div onclick="selectOptionCurrently(this, event)">USD</div>
+                    <div onclick="selectOptionCurrently(this, event)">VND</div>
+                    <div onclick="selectOptionCurrently(this, event)">EUR</div>
+                    <div onclick="selectOptionCurrently(this, event)">JPY</div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="header__main">
+        <ul class="header__navigate">
+            <li>Home</li>
+            <li>Shop</li>
+            <li class="header__navigate-item">Pages <img src="./image/downIcon.svg" alt=""></li>
+            <li>Contact</li>
+        </ul>
+        <h1 class="header__title">
+            KITO
+        </h1>
+        <div class="header__shopping">
+            <img src="./image/searchIcon.png" alt="" class="">
+            <div class="header__cart">
+                <img src="./image/cartIcon.png" alt="">
+                <span class="header__cart-number">0</span>
+            </div>
+            <div class="header__heart">
+                <img src="./image/heartIcon.png" alt="">
+                <span class="header__cart-number">0</span>
+            </div>
+        </div>
+        <div class="menu__icon">
+            <img src="./image/menu.png" alt="">
+        </div>
+      </div>
+    </header>
+    <main id="main">
+        <div class="main__top">
+            <h1 class="main__title">About us</h1>
+            <ul class="main__navigate">
+                <li>Home</li>
+                <li>|</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div class="main__section-1">
+            <div class="main__block-text">
+                <p>About us</p>
+                <p class="phone__show">SPRCICAL PRICE</p>
+                <h2>
+                    bring exciting moments
+                    of fun while playing &
+                    learning for children.
+                </h2>
+                <button class="main__button">Contact us</button>
+            </div>
+            <div class="main__birth">
+                <img src="./image/bird.jpg" class="" alt="">
+                <div class="button__play">
+                    <img src="./image/play.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main__section-2">
+            <h2>
+                What we are proud of.
+            </h2>
+            <div class="main__group-info">
+                <div class="main__info-item">
+                    <h4>20<div>+</div></h4>
+                    <h3>Total top services</h3>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                </div>
+                <div class="main__info-item">
+                    <h4>15<div>+</div></h4>
+                    <h3>Countries</h3>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                </div>
+                <div class="main__info-item">
+                    <h4>98%</h4>
+                    <h3>Positive Feedback</h3>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                </div>
+                <div class="main__info-item">
+                    <h4>2,558</h4>
+                    <h3>Usual users</h3>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main__section-3">
+            <img src="./image/mainImg1.jpg" alt="" class="main__image-teddy">
+            <img src="./image/mainImg2.jpg" alt="" class="main__image-baby">
+            <div class="main__image-text">
+                <h2>Big love for our lovely kids.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <button class="main__button">Contact us</button>
+            </div>
+        </div>
+        <div class="main__image-text main__section-3 phone__show" >
+            <h2>Big love for our lovely kids.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <button class="main__button">Contact us</button>
+        </div>
+        <div class="main__section-4">
+            <h2>Our team</h2>
+            <div class="main__team-group"> 
+                <div class="main__team-member">
+                    <img src="./image/avatar1.jpg" alt="">
+                    <h3>Name 01</h3>
+                    <span>CEO & Founder</span>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                    <img src="./image/socialHorizon.png" class="image__horizon" alt="">
+                </div>
+                <div class="main__team-member">
+                    <img src="./image/avatar2.jpg" alt="">
+                    <h3>Name 01</h3>
+                    <span>CEO & Founder</span>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                    <img src="./image/socialHorizon.png" class="image__horizon" alt="">
+                </div>
+                <div class="main__team-member">
+                    <img src="./image/avatar3.jpg" alt="">
+                    <h3>Name 01</h3>
+                    <span>CEO & Founder</span>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                    <img src="./image/socialHorizon.png" class="image__horizon" alt="">
+                </div>
+                <div class="main__team-member">
+                    <img src="./image/avatar4.jpg" alt="">
+                    <h3>Name 01</h3>
+                    <span>CEO & Founder</span>
+                    <p>Lorem ipsum dolor sit amet, sed do consectetur adipiscing elit.</p>
+                    <img src="./image/socialHorizon.png" class="image__horizon" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main__section-5">
+            <div class="main__provision">
+                <div class="main__provision-item">
+                    <div class="main__provision-image">
+                        <img src="./image/shipping.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Free shipping  </h2>
+                        <p>Free  shipping orders  from $150</p>
+                    </div>
+                </div>
+                <div class="main__provision-item">
+                    <div class="main__provision-image">
+                        <img src="./image/gift.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Free shipping  </h2>
+                        <p>Free  shipping orders  from $150</p>
+                    </div>
+                </div>
+                <div class="main__provision-item">
+                    <div class="main__provision-image">
+                        <img src="./image/reload.png" alt="">
+                    </div>
+                    <div>
+                        <h2>Free shipping  </h2>
+                        <p>Free  shipping orders  from $150</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" >
+        <div class="footer__top">
+            <h2>kito</h2>
+            <div class="footer__mail">
+                <p>Join our list and get 20% off your first purchase!</p>
+                <div class="footer__form">
+                    <input id="footer__input" type="email" >
+                    <button>SUBSCRIBE</button>
+                    <p onclick="handleHiddenPlaceholder()" id="footer__place" class="footer__placeholder">
+                        <img src="./image/email.png" alt="">  Enter your  email</p>
+                </div>
+                </div>
+        </div>
+        <div class="line__horizon phone__show" style="margin-bottom: 4.37rem;"></div>
+        <div class="footer__info">
+            <div class="footer__contact">
+                <h2>Contact info</h2>
+                <ul class="footer__contact-list">
+                    <li>
+                        <img src="./image/local.svg" alt="">
+                        <p>560 King St W, Kingston, ON K7L 4V7, Canada</p>
+                    </li>
+                    <li>
+                        <img src="./image/email.png" alt="">
+                        <p>contactinfo@gmail.com</p>
+                    </li>
+                    <li>
+                        <img src="./image/phone.png" alt="">
+                        <p>+1 212 736 3100</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__link">
+                <h2>Quick links</h2>
+                <ul>
+                    <li>My account</li>
+                    <li>Cart</li>
+                    <li>Wishlist</li>
+                    <li>Product Compare</li>
+                </ul>
+            </div>
+            <div class="footer__information">
+                <h2>Contact info</h2>
+                <ul>
+                    <li>Privacy policy</li>
+                    <li>Refund policy</li>
+                    <li>Shipping & Return</li>
+                    <li>Term & condition</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <h2>Follow us</h2>
+                <div class="">
+                    <ul>
+                        <li><img src="./image/face.png" alt=""> Facebook</li>
+                        <li><img src="./image/twitter.png" alt=""> Twitter</li>
+                        <li><img src="./image/instagram.png" alt=""> Instagram</li>
+                        <li><img src="./image/youtube.png" alt=""> Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="line__horizon"></div>
+        <p class="footer__copyright">Beae’stemplate © 2022. All Rights Reserved.</p>
+    </footer>
+  </body>
+  <script src="./header.js"></script>
+  <script src="./footer.js"></script>
+</html>

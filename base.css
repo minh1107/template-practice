@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;  
+}
+
+body {
+    font-family:  'Open Sans';
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("./font/Open_Sans/static/OpenSans-Light.ttf") format('truetype');
+    font-weight: 300; /* Light */
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./font/Open_Sans/static/OpenSans-Regular.ttf") format('truetype');
+    font-weight: 400; /* Regular */
+  }
+   
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./font/Open_Sans/static/OpenSans-Medium.ttf") format('truetype');
+    font-weight: 500; /* Medium */
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./font/Open_Sans/static/OpenSans-Semibold.ttf") format('truetype');
+    font-weight: 600; /* Semibold */
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./font/Open_Sans/static/OpenSans-Bold.ttf") format('truetype');
+    font-weight: 700; /* Bold */
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("./font/Open_Sans/static/OpenSans-Extrabold.ttf") format('truetype');
+    font-weight: 800; /* Extrabold */
+  }
+  
+
+/*Barlow  */
+
+@font-face {
+  font-family: 'Barlow';
+  src: url("./font/Barlow/Barlow-Light.ttf") format('truetype');
+  font-weight: 300; /* Light */
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url("./font/Barlow/Barlow-Regular.ttf") format('truetype');
+  font-weight: 400; /* Regular */
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url("./font/Barlow/Barlow-Medium.ttf") format('truetype');
+  font-weight: 500; /* Medium */
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url("./font/Barlow/Barlow-SemiBold.ttf") format('truetype');
+  font-weight: 600; /* Semi-Bold */
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url("./font/Barlow/Barlow-Bold.ttf") format('truetype');
+  font-weight: 700; /* Bold */
+}
+
+@font-face {
+  font-family: 'Barlow';
+  src: url("./font/Barlow/Barlow-ExtraBold.ttf") format('truetype');
+  font-weight: 800; /* Extra-Bold */
+}
+
+/*  */
+@font-face {
+  font-family: 'Sansita';
+  src: url("./font/Sansita/Sansita-Regular.ttf") format('truetype');
+  font-weight: 400; /* Regular */
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url("./font/Sansita/Sansita-Bold.ttf") format('truetype');
+  font-weight: 700; /* Bold */
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url("./font/Sansita/Sansita-ExtraBold.ttf") format('truetype');
+  font-weight: 800; /* Extra-Bold */
+}
+
+@font-face {
+  font-family: 'Sansita';
+  src: url("./font/Sansita/Sansita-Black.ttf") format('truetype');
+  font-weight: 900; /* Black */
+}

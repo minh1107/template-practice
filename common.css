@@ -1,0 +1,14 @@
+.line {
+    opacity: 0.1;
+    background-color: var(--Text---Kid-toys);
+    width: 0.0625rem;
+    height: 1.25rem;
+}
+
+.line__horizon {
+    height: 0.0625rem;
+    flex-shrink: 0;
+    opacity: 0.1;
+    background: var(--toy-kid-1-a-1114, #1A1114);
+}
+
